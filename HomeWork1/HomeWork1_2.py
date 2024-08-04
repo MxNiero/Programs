@@ -1,5 +1,5 @@
-print("Please write a 5 numbers")
-user_input = int(input())
+
+user_input = int(input("Please write a 5 numbers: "))
 
 first_number = user_input // 10000
 
@@ -11,4 +11,4 @@ fourth_number = (user_input % 100) // 10
 
 fifth_number = user_input % 10
 
-print(fifth_number,fourth_number,third_number,second_number,first_number)
+print(str(fifth_number)+str(fourth_number)+str(third_number)+str(second_number)+str(first_number))

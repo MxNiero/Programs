@@ -1,5 +1,4 @@
-print("Please write a 4 numbers")
-user_input = int(input())
+user_input = int(input("Please write a 4 numbers"))
 
 first_number = user_input // 1000
 print(first_number)
