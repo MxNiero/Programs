@@ -1,4 +1,4 @@
-main_list = [1, 2, 3,]
+main_list = [1, 2, 3, 4, 5, 6, 7]
 first_list = []
 second_list = []
 final_list = []
