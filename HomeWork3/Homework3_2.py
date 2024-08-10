@@ -6,7 +6,7 @@ if not my_list:
 else:
     for index, number in enumerate(my_list):
 
-        if index % 2 == 0:
+        if not index % 2:
             result += my_list[index]
 
 print(result * my_list[-1])
