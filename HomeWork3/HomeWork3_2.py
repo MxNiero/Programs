@@ -5,7 +5,6 @@ if not my_list:
     my_list = [0]
 else:
     for index, number in enumerate(my_list):
-
         if not index % 2:
             result += my_list[index]
 
