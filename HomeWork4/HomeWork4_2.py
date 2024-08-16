@@ -1,5 +1,4 @@
-end = bool(True)
-while end:
+while True:
     user_input = int(input("Enter a number: "))
     user_action = input("Select an action: + - * / : ")
     user_second_input = int(input("Enter a second number :"))
@@ -21,9 +20,9 @@ while end:
     end = input("Do you want finish? yes/no: ")
 
     if end == "yes":
-        end = bool(False)
-    else:
-        end = bool(True)
+        break
+
+
 
 
 
