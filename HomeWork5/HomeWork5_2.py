@@ -1,15 +1,12 @@
 user_input = int(input("Вкажіть кількість секунд: "))
 
 days = user_input // (24 * 60 * 60)
-
 user_input %= 24 * 60 * 60
 
 hours = user_input // (60 * 60)
-
 user_input %= 60 * 60
 
 minutes = user_input // 60
-
 user_input %= 60
 
 seconds = user_input
