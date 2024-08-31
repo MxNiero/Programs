@@ -1,15 +1,6 @@
 def common_elements():
-    list_multiple_three = []
-    list_multiple_five = []
-
-    for number in range(0, 100):
-        if not number % 3:
-            list_multiple_three.append(number)
-
-    for number in range(0, 100):
-        if not number % 5:
-            list_multiple_five.append(number)
-
+    list_multiple_three = list(range(0, 100, 3))
+    list_multiple_five = list(range(0, 100, 5))
     return set(list_multiple_three).intersection(set(list_multiple_five))
 
 
