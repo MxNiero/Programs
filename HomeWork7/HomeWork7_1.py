@@ -7,10 +7,7 @@ def is_palindrome(text: str) -> True or False:
         if marks in string.punctuation:
             text = text.replace(marks, "")
     text = text.replace(" ", "")
-    if text == text[::-1]:
-        return True
-    else:
-        return False
+    return text == text[::-1]
 
 
 assert is_palindrome('A man, a plan, a canal: Panama') == True, 'Test1'
