@@ -1,7 +1,13 @@
-def find_uniq(arr):
-    for n in arr:
-        if arr.count(n) == 1:
-            return n
+x = int(input("Введіть х: "))
+y = int(input("Введіть y: "))
 
-
-find_uniq([ 10, 1, 1, 2, 1, 1 ])
+if x * x + y * y <= 9:
+    if y + x > 0 and x - y > 0:
+        print("Належить")
+    else:
+        if y + x < 0 and x - y > 0:
+            print("Належить")
+        else:
+            print("Не належить")
+else:
+    print("Не належить\n")
